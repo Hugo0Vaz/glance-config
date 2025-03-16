@@ -1,0 +1,38 @@
+- name: Startpage
+  width: slim
+  hide-desktop-navigation: false
+  center-vertically: true
+  columns:
+    - size: full
+      widgets:
+        - type: search
+          # autofocus: true
+
+        - type: bookmarks
+          groups:
+            - title: Work
+              links:
+                - title: Office365
+                  url: https://office.com
+                - title: Office365 Admin Center
+                  url: https://admin.microsoft.com/#/homepage
+                - title: Teams Admin Center
+                  url: https://admin.teams.microsoft.com/
+                - title: Sharepoint Admin Center
+                  url: https://kotchergenko-admin.sharepoint.com/
+                - title: Exchange Admin Center
+                  url: https://admin.exchange.microsoft.com/#/homepage
+                - title: Kotchergenko's GitHub
+                  url: https://github.com/Kotchergenko-Engenharia
+            - title: General
+              links:
+                - title: Gmail
+                  url: https://mail.google.com/mail/u/0/
+                - title: Github
+                  url: https://github.com/
+            - title: Social
+              links:
+                - title: Reddit
+                  url: https://www.reddit.com/
+                - title: WebWhatsApp
+                  url: https://web.whatsapp.com/
