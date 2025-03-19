@@ -1,0 +1,16 @@
+- name: Startpage
+  width: slim
+  hide-desktop-navigation: false
+  center-vertically: true
+  columns:
+    - size: full
+      widgets:
+        - type: search
+          # autofocus: true
+
+        - type: bookmarks
+          groups:
+            - title: Work
+              links:
+                - title: Hoarder
+                  url: https://hoarder.hugovaz.dev
