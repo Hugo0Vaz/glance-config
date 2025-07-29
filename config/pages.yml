@@ -1,12 +1,11 @@
 - name: Startpage
-  width: full
+  width: wide
   hide-desktop-navigation: false
   center-vertically: true
   columns:
     - size: full
       widgets:
         - type: search
-          # autofocus: true
 
         - type: bookmarks
           groups:

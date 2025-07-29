@@ -1,5 +1,5 @@
 - name: Startpage
-  width: slim
+  width: wide
   hide-desktop-navigation: false
   center-vertically: true
   columns:
