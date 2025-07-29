@@ -1,0 +1,52 @@
+- name: World News
+  columns:
+    - size: full
+      widgets:
+        - type: group
+          widgets:
+            - type: rss
+              title: World Major News
+              limit: 15
+              collapse-after: 5
+              cache: 30m
+              feeds:
+                - url: https://feeds.bbci.co.uk/news/world/rss.xml
+                  title: BBC World News
+                - url: https://rss.cnn.com/rss/edition.rss
+                  title: CNN International
+                - url: https://www.reuters.com/rssFeed/worldNews
+                  title: Reuters World News
+                - url: https://feeds.npr.org/1004/rss.xml
+                  title: NPR World News
+                - url: https://feeds.washingtonpost.com/rss/world
+                  title: Washington Post World
+                - url: https://www.theguardian.com/world/rss
+                  title: The Guardian World
+
+            - type: rss
+              title: Brazilian News
+              limit: 15
+              collapse-after: 5
+              cache: 30m
+              feeds:
+                - url: https://g1.globo.com/dynamo/mundo/rss2.xml
+                  title: G1 Mundo
+                - url: https://www1.folha.uol.com.br/rss/folha.xml
+                  title: Folha de S.Paulo
+                - url: https://estadao.com.br/rss/geral.xml
+                  title: Estadão Geral
+                - url: https://valor.globo.com/rss/home/
+                  title: Valor Econômico
+                - url: https://www.bbc.com/portuguese/topics/cz74k717py3t/rss.xml
+                  title: BBC Brasil
+                - url: https://feeds.feedburner.com/uol/home
+                  title: UOL Notícias
+
+        - type: group
+          widgets:
+            - type: hacker-news
+              title: Tech News
+            - type: reddit
+              subreddit: worldnews
+              show-thumbnails: true
+              title: World News Reddit

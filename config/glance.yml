@@ -10,3 +10,4 @@ theme:
 pages:
   !include: pages.yml
   !include: home.yml
+  !include: news.yml
